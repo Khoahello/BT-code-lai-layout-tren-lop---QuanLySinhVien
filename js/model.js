@@ -32,8 +32,8 @@ function layThongTinTuForm() {
   var _ten = document.getElementById("txtTenSV").value
   var _email = document.getElementById("txtEmail").value
   var _matKhau = document.getElementById("txtPass").value
-  var _toan = document.getElementById("txtDiemToan").value //* 1
-  var _ly = document.getElementById("txtDiemLy").value //* 1
-  var _hoa = document.getElementById("txtDiemHoa").value //* 1
+  var _toan = document.getElementById("txtDiemToan").value * 1
+  var _ly = document.getElementById("txtDiemLy").value * 1
+  var _hoa = document.getElementById("txtDiemHoa").value * 1
   return new SinhVien(_ma, _ten, _email, _matKhau, _toan, _ly, _hoa)
 }
